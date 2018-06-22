@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px auto;padding: 0px;}
+/*第一个界面*/
+/*公用头部分div1*/
+	#div1{background-image: url(../image/imageLV/bg-nav.png);height: 75px; overflow: hidden;}
+	#div2{background-image: url(../image/imageLV/header-161228.jpg);height: 698px;width: auto; overflow: hidden;}
+	#div3{background-image: url(../image/imageLV/min-news.jpg);height: 310px;overflow: hidden;}
+	#div4{background-image: url(../image/imageLV/bg-main.jpg);height:3586px;overflow: hidden;overflow: hidden; }
+/*公用尾巴部分div5*/
+	#div5{background-image: url(../image/imageLV/min-news.jpg);height: 175px; overflow: hidden;}
+	#div6{background-image: url(../image/imageLV/header-left.png);height: 698px;width: 370px; overflow: hidden;float: left;position: relative;top: -310px;left: 17px;}
+	#div8{background-image: url(../image/imageLV/a2c40d37ea713617e0be377a6ef1586586a8ba17.jpg);width: 455px;height: 230px;position: relative;top: 40px;right: 280px;overflow: hidden}
+	#div13{background-image: url(../image/imageLV/role-1.png);width: 1000px;height: 890px;position: relative;top: 450px;overflow: hidden}
+	#div14{background-image: url(../image/imageLV/role-span.png);width: 1200px;height: 145px;overflow: hidden;position: relative;top: 325px;}
+	#div1 ul{position: relative;top: 15px;left: 300px;}
+	#div1 ul li{float: left;padding-left: 40px;list-style-type: none;}
+	#div6 ul{float: left;}
+	#div6 ul li{list-style-type: none;padding-top: 15px; text-align: center;}
+	#div7 ul{position: relative;top: 370px;left: 1390px;}
+	#div7 ul li{list-style-type: none;padding-top: 10px;}
+	#div8 ul{position: relative;top: 200px;left: 150px;width: 100px;height: 20px;border-radius: 25px;background-color: rgba(0,0,0,0.5)}
+	#div8 ul li{list-style-type: none;float: left;padding-left: 10px;}
+	#div9 ul{position: relative;left: 950px;top: -190px;}
+	#div9 h1{font-size: 26px;font-weight: bold;color: #C5A601}
+	#div9 ul li{list-style-type: none;color: #C5A601;padding-left: 5px;padding-bottom: 20px;font-size: 16px;}
+	#div9 span{position: relative;top: -225px;right: 20px;}
+	#div10 ul{position: relative;top: -570px;left: 1300px;}
+	#div10 ul li{list-style-type: none;color: #C5A601;padding-bottom: 20px }
+	#div11 ul{position: relative;top: 230px;}
+	#div11 ul li{list-style-type: none;padding-top:10px;text-align: center;}
+	#div11 .span{font-size: 36px;font-weight: bold;position: relative;top: 95px;left: 430px;}
+	#div11 .span1{font-size: 26px;font-weight: bold;position: relative;top: 105px;left: 440px;}
+	#div11 p{font-size: 20px;position: relative;top: 105px;left: 430px;}
+	#div11 ul li a{color: #761012}
+	#div12 .p1{position: relative;left: 430px;top: 460px;font-size: 36px;font-weight: bolder}
+	#div12 .p2{position: relative;left: 430px;top: 465px;font-size: 20px;font-weight:500}
+	#div15 ul{position: relative;top: 570px;left: 370px;}
+	#div15 ul li{list-style-type: none;padding-top: 13px;}
+	#div15 ul li a{padding-left: 15px;font-size: 22px;}
+	#div15 .p1{position: relative;top: 600px;left: 870px;font-size: 22px;}
+	#div15 .p2{position: relative;;top: 210px;left: 1230px;}
+	#div15 .span1{font-size: 48px;font-weight: bold;position: relative;top: 490px;left: 425px;}
+	#div15 .span2{font-size: 30px;font-weight: 700;position: relative;top: 490px;left: 455px;}
+	#div16 .span1{font-size: 48px;font-weight: bold;position: relative;top: 475px;left: 425px;}
+	#div16 .span2{font-size: 30px;font-weight: 700;position: relative;top: 475px;left: 455px;}
+	#div16 ul{position: relative;top: 480px;left: 430px;}
+	#div16 ul li{font-size: 26px;padding-top: 20px;}
+	#div16 ul li a{font-size: 30px;font-weight: bolder;}
+	#div17 table{position: relative;top: 480px;right: 220px;}
+	#div17 table tbody tr td{padding: 15px;}
+	#div18 ul{position: relative;left: 1250px;top: -430px;}
+	#div18 ul li{font-size: 26px;padding-top: 26px;}
+	#div18 ul li a{font-size: 30px;font-weight: bold;}
+	#div18 span{position: relative;left: 1270px;top: -400px;}
+	#div19 .span1{position: relative;top: 65px;left: 420px;}
+	#div19 .span2{position: relative;top: 65px;left: 450px;}
+	#div19 .span3{color: #0D99CC;font-size: 45px;font-weight: lighter;position: relative;top:53px;left: 435px;}
+	#div20 ul{position: relative;top: -40px;left: 900px;}
+	#div20 ul li{color: darkgrey;font-size: 8px;list-style-type: none;padding-top: 6px;}
+	#div20 ul li a{color: #0D99CC;padding-right: 15px;}
+	#div20 ul li a span{color: darkgray}
+    #div21 span{position: relative;top: 70px;}
+	#div4a{background-image: url(../image/imageLV/path.png);width: 41px;height: 85px;position: relative;top: -2500px;right: 580px;}
+	#div4b{background-image: url(../image/imageLV/path.png);width: 41px;height: 85px;background-position: right;position: relative;top: -2585px;left: 570px;}
+/*第二个界面*/
+    #div22{background-image: url(../image/imageLV/bg-news.jpg);height: 965px;overflow: hidden;}
+	#div22 span{position: relative;top: 20px;left: 265px;}
+	#div22a{background-image: url(../image/imageLV/title.png);width: 500px;height: 60px;background-repeat: no-repeat;background-position:0px -70px;position: relative;top: 15px;right: 460px;}
+	#div23{background-image: url(../image/imageLV/bg-news-aside.jpg);height: 494px;width: 274px; overflow: hidden;position: relative;top: 130px;right: 565px;}
+	#div23 ul{position: relative;top: 30px;}
+	#div23 ul li{list-style-type: none;color: #D88D00;text-align: center;padding-top: 30px;font-size: 16px;}
+	#div24{background-image: url(../image/imageLV/bg-news-content-top.jpg);width: 914px;height: 78px;overflow: hidden;position: relative;left: 72px;top: -362px;}
+	#div24 p{position: relative;top: 20px;left: 10px;}
+	#div24 span{color: #F1DA09; position: relative;left: 200px;top:-10px; font-size: 16px; }
+	#div25{background-color: #FFFFFF;width: 914px;height:600px;position: relative;left: 72px;top: -362px;background-color: rgba(236,234,234,0.50)}
+	#div25 p{position: relative;top: 50px;left:50px; }
+	#div25 p a{font-size: 22px;font-weight: bold;padding-left: 120px;}
+	#div25 p .a1{color: #F1DA09;}
+	#div25 ul{position: relative;top: 50px;left:10px;width: 764px;}
+	#div25 ul li{list-style-type: none;padding-top:30px;padding-bottom: 15px; font-size: 16px;border-bottom: 1px dashed #000000}
+	#div25 ul li a{float: right;}
+	#div25 ul p{position: relative;top: 90px;left: 580px;}
+	#div25 ul p a{padding-left: 20px;}
+	.color{color: #F1DA09}
+/*第三个界面*/
+    #div26{background-image: url(../image/imageLV/banner-word.jpg);height: 649px;}
+	#div27{background-image: url(../image/imageLV/bg-common.jpg);height:auto;}
+	#div28{background-image:url(../image/imageLV/bg-navsub-word.png);width: 1199px;height: 108px;position: relative;top: -70px;}
+	#div28 ul{position: relative;left: 15px;}
+	#div28 ul li{list-style-type: none;float: left;padding-left: 170px;padding-top: 30px;}
+    #div29 ul li{list-style-type: none;padding: 10px 0px;font-size: 20px;position: relative;top: -30px;left: 600px;}
+	#div29 p{position: relative;left: 650px;top: -30px;}
+	#div30 .ul1{position: relative;top: -50px;right: 460px;}
+	#div30 .ul1 li{list-style-type:none;padding:20px 0px;line-height: 40px;height: 50px;}
+	#div30 .ul1 li a{border: 3px solid #B0AF0B;height: 50px;width: 200px; display: block;text-align: center;padding-top:12px;border-radius: 20px;background-color: #000000;}
+	#div31{position: absolute;top: 850px;left: 930px;}
+	#div31 h1{position: relative;right: 250px;top: -30px;}
+	#div31 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;top: -30px;right: 250px;}
+	#div31 p{position: relative;top: -400px;left: 200px;}
+    #div32{position: absolute;top: 850px;left: 930px;}
+	#div32 h1{position: relative;right: 250px;top: -30px;}
+	#div32 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;top: -30px;right: 250px;}
+	#div32 p{position: relative;top: -250px;left: 200px;}
+    #div33{position: absolute;top: 850px;left: 930px;}
+	#div33 h1{position: relative;right: 250px;top: -30px;}
+	#div33 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;top: -30px;right: 250px;}
+	#div33 p{position: relative;top: -250px;left: 200px;}
+    #div34{position: absolute;top: 850px;left: 930px;}
+	#div34 h1{position: relative;right: 250px;top: -30px;}
+	#div34 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;top: -30px;right: 250px;}
+	#div34 p{position: relative;top: -250px;left: 200px;}
+    #div35{position: absolute;top: 850px;left: 930px;}
+    #div35 h1{position: relative;right: 250px;top: -30px;}
+	#div35 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;top: -30px;right: 250px;}
+	#div35 p{position: relative;top: -250px;left: 200px;}
+    #div36{position: absolute;top: 700px;left: 930px;}
+	#div36 h1{position: relative;right: 250px;top: 120px;}
+	#div36 ul li{list-style-type:none;padding-top: 30px;font-size: 20px;position: relative;right: 250px;top: 120px;}
+	#div36 p{position: relative;top: -250px;left: 200px;}
+    #div38 ul{position: relative;left: 450px;}
+	#div38 ul li{list-style-type: none;padding: 15px 0px;font-size: 20px;}
+
+
